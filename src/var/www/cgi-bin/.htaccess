@@ -1,0 +1,9 @@
+
+AddDefaultCharset utf-8
+
+AuthType Basic
+AuthName "Restricted Files"
+AuthUserFile /var/www/passwords
+Require valid-user 
+
+
